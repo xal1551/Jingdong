@@ -1387,10 +1387,10 @@
 .J-service>.serv-tab-head{
     position: absolute;
     top: 0;
-    width: 159px;
-    height: 32px;
+    /* width: 159px;
+    height: 32px; */
     padding: 0 15px;
-    z-index: 0;
+    z-index: 20;
 }
 /* .serv-tab-head>.tab-head1,
 .serv-tab-head>.tab-head2 */
@@ -1427,6 +1427,7 @@
     /* overflow: hidden; */
     background-color: #fff;
     transition: top 0.2s;
+    z-index: 20;
 }
 .J-service .service-content{
     position: absolute;

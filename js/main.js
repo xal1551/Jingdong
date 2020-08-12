@@ -243,14 +243,10 @@ $(".close-cont").click(flyOut);
 // 滚动到一定高度后
 $(window).scroll(function(){
     var scrollTop = $("html").scrollTop();
-    // console.log(scrollTop);
     if(scrollTop>680){
         $(".search-wrapper").addClass("search-wrapper-scroll");
-        // $(".elevator").addClass("elevator-scroll");
-        // console.log(scrollTop);
     }else{
         $(".search-wrapper").removeClass("search-wrapper-scroll");
-        // $(".elevator").removeClass("elevator-scroll");
     }
 })
 
